@@ -1,5 +1,23 @@
+body	{ background: linear-gradient(45deg, #e66465, #669966);}
+
+h1	{ border: 2px dashed green ; }
+
+h2	{border-bottom: 1px solid green ; }
+
+p.bordered { background: #ffcccc ;
+			border: 2px green ;
+			border-radius: 10px ;
+			padding: 10px; }
+			
+img.padded { padding: 35px; }
+
 #footer { font-size: small; }
 
-a { color: red;
-	text-decoration: none; }
+a { text-decoration: none;
+	color: black;
+	font-weight: bold ;}
 
+
+
+
+Try margin and padding-properties to different elements. Try to make the site structure look clearer/prettier.
