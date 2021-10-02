@@ -10,6 +10,9 @@
 
 #section	{ background-color: #E2C8CE; } /* Beige */
 
+#footer { background-color: #ACBFA4;
+		font-style: italic; }
+
 body {
 	width: 90%;
 	margin-left: auto;
