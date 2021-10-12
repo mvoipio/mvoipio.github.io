@@ -1,0 +1,55 @@
+
+.centered	{text-align: center ;}
+.paddedlots	{ padding: 20px ;}
+.paddedlittle { padding: 5px ;}
+
+#header	{ color: white ;
+			background-color: #04724D; } /* Dark spring green */
+
+#nav	{ background-color: #ACBFA4; } /* Laurel Green */
+
+#nav a:hover {color: white; }
+
+#nav a:active {color: white;}
+
+
+#wrapper { background-color: #666666; }
+
+#aside { background-color: #666666;		/* Gray */
+		color: white; 
+		width: 30%;
+		float: left;
+		min-height: 100%;
+		} 		
+
+#aside ul {list-style-type: none;}
+
+#aside a {text-decoration:none; } 
+
+#aside a:link {color: white; }
+
+#aside a:visited {color: white; }
+
+#aside a:hover {color: red; }
+
+#aside a:active {color: red; }
+
+#main { background-color: #E2C8CE;
+		margin-left: 30%} /* Beige */
+
+
+#footer { background-color: #ACBFA4;
+		font-style: italic; }
+
+
+
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}  
+
+a	{ text-decoration: none;
+	font-weight: bold ;
+	color: #823329; } /* Burnt Umber */
+
