@@ -1,0 +1,23 @@
+table, td, th {
+	border: 1px solid;
+	padding: 5px;
+	}
+	
+table {
+	border-collapse: collapse;
+/*	border:none; */
+	}
+	
+caption {
+	text-align: left;
+	font-style: italic;
+	}
+	
+th {
+	text-align: left;
+	}
+
+th.noborder {
+		border:none;
+	}
+	
