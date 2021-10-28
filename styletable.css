@@ -1,0 +1,43 @@
+body {
+	background-color: #E98074;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+
+table, td, th {
+	border: 1px solid #8E8D8A;
+	padding: 5px;
+	}
+	
+table {
+	border-collapse: collapse;
+/*	border:none; */
+	}
+	
+caption {
+	text-align: left;
+	font-style: italic;
+	}
+	
+th {
+	text-align: left;
+	}
+
+.noborder {
+	border:none;
+	}
+	
+.sand {
+	background-color: #D8C3A5;
+	}
+	
+.paddedsand {
+	background-color: #D8C3A5;
+	padding: 20px ;
+	}
+	
+.form-submit-button {
+     background:#E85A4F;
+     color:#D8C3A5;
+	}
+
+/* Color scheme: https://visme.co/blog/website-color-schemes/ */
