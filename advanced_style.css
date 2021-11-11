@@ -1,0 +1,33 @@
+.shadowed_box {
+	border: 1px solid black ;
+	padding: 10px ;
+  box-shadow: 10px 10px 8px gray;
+}
+
+.text_shadow {
+text-shadow: 4px 4px pink; }
+
+#huivitausta {
+  background: url(huivi_lahikuva_yksityiskohta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white ;
+  padding: 10px ;
+}
+
+a {
+  color: black;
+  transition: all 0.8s linear;
+
+}
+a:hover {
+	color: pink ;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightyellow;
+	color: red;
+  }
+}
