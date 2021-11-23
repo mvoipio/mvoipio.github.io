@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {			/* link bar on the left */
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+/*   background-color: #686BA2;  */ /* blue background */
+/*	background-color: #A59132 ; */ /* green/brown theme */
+/*  background-color: #384E77 ; */ /* blue palette */
+  background-color: #5A79A5 ; /* lighter blue */
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {				/* the middle part */
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {			/* bar on the right */
+  background-color: #5A79A5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+@media print {
+	/* Getting rid of navigation bar */
+	.menu, a.light {
+		display: none;
+		}	
+	.main, h1 {
+		width: 100%;
+		color: black;
+		background-color: transparent;
+		}
+	.right {
+		display: none;
+		}
+	}
+
+
+body	{font-family:Verdana, Arial, sans-serif ; 
+/*	color:#30362F; */ /* Tekstin väri, ruskea värikartta */
+/*	color: #0D0630 ; */ /* Tekstin väri, sininen paletti */
+	color: #000063 ; /* tummansininen */
+/*	background-color: #FFFBDB; */ /* Taustan väri, ruskea paletti */
+/*	background-color: #E6F9AF ; */ /* sininen paletti */
+	background-color: #DEE7EF ;
+	}
+
+#head {
+/* 	background-color:#625834; */ /*green/brown theme */
+/*	background-color: #0D0630 ; */ /* blue palette */
+	background-color: #000063 ;
+	color: #DEE7EF;
+	padding:15px;
+	text-align:center;}
+
+div.container {overflow:auto;}
+
+#footer {background-color:#000063;
+	color: #DEE7EF;
+	text-align:center;
+	padding:10px;
+	margin-top:7px;}
+
+.italic {font-style: italic; }
+
+p.languages {text-align: right;}
+
+
+a:link {
+  color: #000063;
+}
+
+a.light{
+	color: #DEE7EF ;
+}
+
+/* visited link */
+a:visited {
+  color: #000063;
+}
+
+/* mouse over link */
+a:hover {
+  color: #CE0000;
+}
+
+ul.sublinks {
+  list-style-type: none; /* Remove bullets */
+}
+
+.center {
+	text-align: center ;
+	}
