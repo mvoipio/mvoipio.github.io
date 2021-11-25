@@ -113,3 +113,28 @@ ul.sublinks {
 .center {
 	text-align: center ;
 	}
+	
+figure {
+     margin: 0px;
+}
+
+table.bordered, th.bordered, td.bordered {
+	border: 1px solid #000063 ;
+	border-collapse: collapse ;
+	padding: 5px ;
+	}
+	
+td.topaligned {
+	vertical-align: top ;
+	}
+	
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+table.centered {
+	margin-left: auto;
+	margin-right: auto;
+	}
