@@ -138,3 +138,10 @@ table.centered {
 	margin-left: auto;
 	margin-right: auto;
 	}
+	
+	
+/* Dashed grey border for FAQ page */
+hr.gray {
+  border: 2px dashed #9CAAC6;
+  margin-top: 10px ;
+}
