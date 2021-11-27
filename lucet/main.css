@@ -9,9 +9,6 @@
 }
 
 .menu a {
-/*   background-color: #686BA2;  */ /* blue background */
-/*	background-color: #A59132 ; */ /* green/brown theme */
-/*  background-color: #384E77 ; */ /* blue palette */
   background-color: #5A79A5 ; /* lighter blue */
   padding: 8px;
   margin-top: 7px;
@@ -42,8 +39,8 @@
   }
 }
 
+/* Getting rid of navigation bars when printing */
 @media print {
-	/* Getting rid of navigation bar */
 	.menu, a.light {
 		display: none;
 		}	
@@ -58,18 +55,12 @@
 	}
 
 
-body	{font-family:Verdana, Arial, sans-serif ; 
-/*	color:#30362F; */ /* Tekstin väri, ruskea värikartta */
-/*	color: #0D0630 ; */ /* Tekstin väri, sininen paletti */
-	color: #000063 ; /* tummansininen */
-/*	background-color: #FFFBDB; */ /* Taustan väri, ruskea paletti */
-/*	background-color: #E6F9AF ; */ /* sininen paletti */
+body	{font-family: Verdana, Arial, sans-serif ; 
+	color: #000063 ; /* dark blue text */
 	background-color: #DEE7EF ;
 	}
 
 #head {
-/* 	background-color:#625834; */ /*green/brown theme */
-/*	background-color: #0D0630 ; */ /* blue palette */
 	background-color: #000063 ;
 	color: #DEE7EF;
 	padding:15px;
@@ -85,6 +76,8 @@ div.container {overflow:auto;}
 
 .italic {font-style: italic; }
 
+
+/* put the language links to the right */
 p.languages {text-align: right;}
 
 
@@ -92,7 +85,8 @@ a:link {
   color: #000063;
 }
 
-a.light{
+/* For the links to the other languages in the header */
+a.light{ 
 	color: #DEE7EF ;
 }
 
@@ -105,7 +99,7 @@ a.light:visited { /* visited link for language selection needs to stay light */
 	color: #DEE7EF ;
 }
 
-/* mouse over link */
+/* mouse over link, applies to all links */
 a:hover {
   color: #CE0000;
 }
@@ -118,10 +112,14 @@ ul.sublinks {
 	text-align: center ;
 	}
 	
+
 figure {
-     margin: 0px;
+     margin: 0px; /* Removing the default extra margin from <figure> */
+	font-style: italic; /* captions italic and smaller */
+	font-size: smaller;
 }
 
+/* Table with borders, used at least for price list */
 table.bordered, th.bordered, td.bordered {
 	border: 1px solid #000063 ;
 	border-collapse: collapse ;
@@ -149,9 +147,21 @@ table.centered {
 	margin-right: auto;
 	}
 	
+table {
+	margin-top: 20px ;
+	}
 	
-/* Dashed grey border for FAQ page */
+td {
+		padding-top: 5px ;
+		padding-bottom: 5px ;
+	}
+	
+/* Dashed grey horizontal rule */
 hr.gray {
   border: 2px dashed #9CAAC6;
   margin-top: 10px ;
 }
+
+.smaller {
+	font-size: smaller ;
+	}
