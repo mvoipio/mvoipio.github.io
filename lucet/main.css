@@ -101,6 +101,10 @@ a:visited {
   color: #000063;
 }
 
+a.light:visited { /* visited link for language selection needs to stay light */
+	color: #DEE7EF ;
+}
+
 /* mouse over link */
 a:hover {
   color: #CE0000;
@@ -133,6 +137,12 @@ img.centered {
 	margin-left: auto;
 	margin-right: auto;
 	}
+	
+figure.centered {
+   text-align: center;
+   margin: 10 px auto;
+}
+
 
 table.centered {
 	margin-left: auto;
