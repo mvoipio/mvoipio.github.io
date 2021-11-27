@@ -138,7 +138,7 @@ img.centered {
 	
 figure.centered {
    text-align: center;
-   margin: 10 px auto;
+   margin: 10px auto;
 }
 
 
@@ -164,4 +164,8 @@ hr.gray {
 
 .smaller {
 	font-size: smaller ;
+	}
+	
+iframe {
+	border: 0px ;
 	}
